@@ -1,0 +1,109 @@
+*{
+    background-color: #fff;
+}
+.emi-p{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+h1{
+    font-size: 38px;
+    font-weight: 700;
+    /* background: darkcyan; */
+    box-shadow: 0 0 25px #ccc;
+    width: 100%;
+    padding: 19px 0px;
+}
+label{
+    font-size: 15px;
+    font-weight: 400;
+}
+input{
+    border: none;
+    background-color: #d3d3d391;
+    border-radius: 15px;
+    padding: 7px;
+    transition: .3s;
+}
+#input-field{
+    border-right: 2px double rgb(145 155 181);
+    height: 320px;
+}
+.calculate-btn{
+    padding: 8px;
+    border-radius: 20px;
+    width: 30%;
+    font-size: 15px;
+    font-weight: 400;
+    background: #d3d3d391;
+    color: black;
+    border: none;
+}
+.calculate-btn:hover{
+    background-color: #fff;
+    color: black;
+    /* width: 32%;
+    padding: 12px; */
+    transform: scale(1.30);
+    transition: 0.3s;
+}
+i{
+    margin-right: 25px;
+    font-size: 45px;
+}
+.piechart{
+    width: 250px;
+    height: 200px;
+}
+.total-loan{
+    display: flex;
+    gap: 50px;
+}
+.intrenst-div{
+    display: flex;
+    gap: 13px;
+}
+#total-amount{
+    display: flex;
+    gap: 39px;
+}
+.rupi-sign{
+    margin-right: 10px;
+}
+.loan-amount{
+    background-color: blue;
+}
+.total-payment{
+    background: aqua;
+    width: 120px;
+    border-radius: 20px;
+    padding: 4px 0px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+}
+.show-loan{ 
+    background: violet;
+    width: 120px;
+    border-radius: 20px;
+    padding: 4px 0px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+}
+.total-Interest{
+    background: yellow;
+    width: 120px;
+    border-radius: 20px;
+    padding: 4px 0px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+}
+#gettotal{
+    border-right: 1px double rgb(145 155 181);
+    height: 420px;
+}
